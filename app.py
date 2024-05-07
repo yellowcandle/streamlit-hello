@@ -45,6 +45,8 @@ st.title("Daily Passenger Traffic of all border control points from 2021 to 2024
 st.header("Daily Passenger Traffic of 2021 to 2024")
 
 st.subheader("Daily Passenger Traffic of 2021 to 2024")
+
+st.write("This is the daily passenger traffic of all border control points from 2021 to 2024. The border between China Hong Kong opened on 2023-02-06.")
 st.bar_chart(aggregated_data[departure_columns])
 
 st.subheader("Daily Passenger Traffic of 2021")
